@@ -29,13 +29,15 @@ typedef struct s_pipex
 	int	j;
 } t_pipex;
 
-void setup_pipex(t_pipex *pipex, char **av);
-int	setup_pipex_pids(t_pipex *pipex, char **av);
-int setup_pipex_pids2(t_pipex *pipex, char **av);
+void free_pipe(t_pipex *pipex);
+void print_error();
+char *find_single_command_path(t_pipex *pipex, int cmd_index);
+void find_command_path(char **env, t_pipex *pipex);
+int setup_pipex_cmd(t_pipex *pipex, char **av);
+int setup_pipex_pipe(t_pipex *pipex);
 void close_pipes(t_pipex *pipex);
-int	setup_pipex_pipe(t_pipex	*pipex);
-int	setup_pipex_cmd(t_pipex *pipex, char **av);
-void	print_error();
-void	free_pipe(t_pipex *pipex);
+int setup_pipex_pids2(t_pipex *pipex, char **av);
+int setup_pipex_pids(t_pipex *pipex, char **av);
+void setup_pipex(t_pipex *pipex, char **av);
 
 #endif
