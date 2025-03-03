@@ -1,0 +1,15 @@
+Je vais vous aider à comprendre comment tester et utiliser votre projet Pipex. Je vais créer un guide détaillé qui vous aidera à mettre en place et à tester votre programme.Guide de Test et d'Utilisation de PipexClick to open documentTap to openCe guide détaillé devrait vous aider à comprendre comment tester et utiliser votre programme Pipex. Les points clés à retenir sont :
+
+Compilez votre programme
+Préparez des fichiers d'entrée
+Utilisez la syntaxe ./pipex fichier_entree commande1 commande2 fichier_sortie
+Testez avec différentes commandes et situations
+Vérifiez la gestion des erreurs
+
+Avez-vous des questions spécifiques sur l'implémentation ou le test de votre Pipex ? Je serais ravi de vous aider à approfondir un point particulier du guide.
+Quelques conseils supplémentaires :
+
+Commencez par des tests simples avec des commandes de base comme cat et wc
+Utilisez valgrind pour détecter les fuites mémoire
+Ajoutez des vérifications d'erreur robustes dans votre code
+Testez progressivement en ajoutant de la complexité
