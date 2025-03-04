@@ -27,6 +27,7 @@ typedef struct s_pipex
 	char 	**path_dir;
 	int	i;
 	int	j;
+	char *pipex.delimiter;
 } t_pipex;
 
 void free_pipe(t_pipex *pipex);

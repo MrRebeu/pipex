@@ -1,1 +1,13 @@
-3
+total 76
+-rw-rw-r-- 1 mr-rebeu mr-rebeu   752 Mar  3 22:25 Makefile
+-rw-rw-r-- 1 mr-rebeu mr-rebeu  1051 Mar  3 22:25 infile.txt
+-rw-rw-r-- 1 mr-rebeu mr-rebeu    39 Mar  3 22:25 input.txt
+drwxrwxr-x 2 mr-rebeu mr-rebeu  4096 Mar  3 22:25 libft
+-rw-rw-r-- 1 mr-rebeu mr-rebeu     0 Mar  3 22:25 outfile.txt
+-rw-rw-r-- 1 mr-rebeu mr-rebeu     0 Mar  3 22:34 output.txt
+-rwxrwxr-x 1 mr-rebeu mr-rebeu 21720 Mar  3 22:25 pipex
+-rw-rw-r-- 1 mr-rebeu mr-rebeu 12569 Mar  3 22:25 pipex.c
+-rw-rw-r-- 1 mr-rebeu mr-rebeu  1376 Mar  3 22:25 pipex.h
+-rw-rw-r-- 1 mr-rebeu mr-rebeu 13400 Mar  3 22:25 pipex.o
+-rw-rw-r-- 1 mr-rebeu mr-rebeu     0 Mar  3 22:25 test.txt
+-rw-rw-r-- 1 mr-rebeu mr-rebeu     0 Mar  3 22:25 utils.c
